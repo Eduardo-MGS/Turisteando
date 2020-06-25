@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF9909E023884EFE008BBDDE /* TableViewControllerEventos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9909DF23884EFE008BBDDE /* TableViewControllerEventos.swift */; };
+		CF9909E223885059008BBDDE /* TableViewCellEventos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9909E123885059008BBDDE /* TableViewCellEventos.swift */; };
+		CF9909E423885283008BBDDE /* ViewControllerEvento.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9909E323885283008BBDDE /* ViewControllerEvento.swift */; };
+		CF9BFC122370A05700F1D400 /* LugarPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9BFC112370A05700F1D400 /* LugarPinView.swift */; };
+		CF9C25F0233D41BB00B85162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C25EF233D41BB00B85162 /* AppDelegate.swift */; };
+		CF9C25F2233D41BB00B85162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C25F1233D41BB00B85162 /* SceneDelegate.swift */; };
+		CF9C25F4233D41BB00B85162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C25F3233D41BB00B85162 /* ViewController.swift */; };
+		CF9C25F7233D41BB00B85162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9C25F5233D41BB00B85162 /* Main.storyboard */; };
+		CF9C25FA233D41BB00B85162 /* TuristenadoCDMX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF9C25F8233D41BB00B85162 /* TuristenadoCDMX.xcdatamodeld */; };
+		CF9C25FC233D41BD00B85162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9C25FB233D41BD00B85162 /* Assets.xcassets */; };
+		CF9C25FF233D41BD00B85162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9C25FD233D41BD00B85162 /* LaunchScreen.storyboard */; };
+		CFA757AA236904E2007DF122 /* LugarPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA757A9236904E2007DF122 /* LugarPin.swift */; };
+		CFEC3537233EADD700640C5C /* TableViewControllerPersonajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC3536233EADD700640C5C /* TableViewControllerPersonajes.swift */; };
+		CFEC3539233EAFAA00640C5C /* TableViewCellPersonajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC3538233EAFAA00640C5C /* TableViewCellPersonajes.swift */; };
+		CFEC353B233EB0AD00640C5C /* ViewControllerPersonaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC353A233EB0AD00640C5C /* ViewControllerPersonaje.swift */; };
+		CFF83A832370E1FC0001EB11 /* ViewControllerLugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF83A822370E1FC0001EB11 /* ViewControllerLugar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF9909DF23884EFE008BBDDE /* TableViewControllerEventos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerEventos.swift; sourceTree = "<group>"; };
+		CF9909E123885059008BBDDE /* TableViewCellEventos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellEventos.swift; sourceTree = "<group>"; };
+		CF9909E323885283008BBDDE /* ViewControllerEvento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEvento.swift; sourceTree = "<group>"; };
+		CF9BFC112370A05700F1D400 /* LugarPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugarPinView.swift; sourceTree = "<group>"; };
+		CF9C25EC233D41BB00B85162 /* TuristenadoCDMX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuristenadoCDMX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9C25EF233D41BB00B85162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF9C25F1233D41BB00B85162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF9C25F3233D41BB00B85162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF9C25F6233D41BB00B85162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF9C25F9233D41BB00B85162 /* TuristenadoCDMX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TuristenadoCDMX.xcdatamodel; sourceTree = "<group>"; };
+		CF9C25FB233D41BD00B85162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF9C25FE233D41BD00B85162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF9C2600233D41BD00B85162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA757A9236904E2007DF122 /* LugarPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugarPin.swift; sourceTree = "<group>"; };
+		CFEC3536233EADD700640C5C /* TableViewControllerPersonajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerPersonajes.swift; sourceTree = "<group>"; };
+		CFEC3538233EAFAA00640C5C /* TableViewCellPersonajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellPersonajes.swift; sourceTree = "<group>"; };
+		CFEC353A233EB0AD00640C5C /* ViewControllerPersonaje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPersonaje.swift; sourceTree = "<group>"; };
+		CFF83A822370E1FC0001EB11 /* ViewControllerLugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLugar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9C25E9233D41BB00B85162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF9BFC0A2370948500F1D400 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF9C25F3233D41BB00B85162 /* ViewController.swift */,
+				CFF83A822370E1FC0001EB11 /* ViewControllerLugar.swift */,
+				CFEC3536233EADD700640C5C /* TableViewControllerPersonajes.swift */,
+				CFEC3538233EAFAA00640C5C /* TableViewCellPersonajes.swift */,
+				CFEC353A233EB0AD00640C5C /* ViewControllerPersonaje.swift */,
+				CF9909DF23884EFE008BBDDE /* TableViewControllerEventos.swift */,
+				CF9909E123885059008BBDDE /* TableViewCellEventos.swift */,
+				CF9909E323885283008BBDDE /* ViewControllerEvento.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CF9C25E3233D41BB00B85162 = {
+			isa = PBXGroup;
+			children = (
+				CF9C25EE233D41BB00B85162 /* TuristenadoCDMX */,
+				CF9C25ED233D41BB00B85162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9C25ED233D41BB00B85162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9C25EC233D41BB00B85162 /* TuristenadoCDMX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF9C25EE233D41BB00B85162 /* TuristenadoCDMX */ = {
+			isa = PBXGroup;
+			children = (
+				CF9BFC0A2370948500F1D400 /* Controllers */,
+				CF9C25FB233D41BD00B85162 /* Assets.xcassets */,
+				CF9C25F5233D41BB00B85162 /* Main.storyboard */,
+				CF9C25FD233D41BD00B85162 /* LaunchScreen.storyboard */,
+				CF9C25EF233D41BB00B85162 /* AppDelegate.swift */,
+				CFA757A9236904E2007DF122 /* LugarPin.swift */,
+				CF9BFC112370A05700F1D400 /* LugarPinView.swift */,
+				CF9C25F1233D41BB00B85162 /* SceneDelegate.swift */,
+				CF9C2600233D41BD00B85162 /* Info.plist */,
+				CF9C25F8233D41BB00B85162 /* TuristenadoCDMX.xcdatamodeld */,
+			);
+			path = TuristenadoCDMX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF9C25EB233D41BB00B85162 /* TuristenadoCDMX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9C2603233D41BD00B85162 /* Build configuration list for PBXNativeTarget "TuristenadoCDMX" */;
+			buildPhases = (
+				CF9C25E8233D41BB00B85162 /* Sources */,
+				CF9C25E9233D41BB00B85162 /* Frameworks */,
+				CF9C25EA233D41BB00B85162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuristenadoCDMX;
+			productName = TuristenadoCDMX;
+			productReference = CF9C25EC233D41BB00B85162 /* TuristenadoCDMX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF9C25E4233D41BB00B85162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Laboratorio UNAM-Apple 03";
+				TargetAttributes = {
+					CF9C25EB233D41BB00B85162 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = CF9C25E7233D41BB00B85162 /* Build configuration list for PBXProject "TuristenadoCDMX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF9C25E3233D41BB00B85162;
+			productRefGroup = CF9C25ED233D41BB00B85162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9C25EB233D41BB00B85162 /* TuristenadoCDMX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF9C25EA233D41BB00B85162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9C25FF233D41BD00B85162 /* LaunchScreen.storyboard in Resources */,
+				CF9C25FC233D41BD00B85162 /* Assets.xcassets in Resources */,
+				CF9C25F7233D41BB00B85162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF9C25E8233D41BB00B85162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF83A832370E1FC0001EB11 /* ViewControllerLugar.swift in Sources */,
+				CF9BFC122370A05700F1D400 /* LugarPinView.swift in Sources */,
+				CF9C25F4233D41BB00B85162 /* ViewController.swift in Sources */,
+				CF9C25F0233D41BB00B85162 /* AppDelegate.swift in Sources */,
+				CFA757AA236904E2007DF122 /* LugarPin.swift in Sources */,
+				CFEC353B233EB0AD00640C5C /* ViewControllerPersonaje.swift in Sources */,
+				CF9C25FA233D41BB00B85162 /* TuristenadoCDMX.xcdatamodeld in Sources */,
+				CF9909E423885283008BBDDE /* ViewControllerEvento.swift in Sources */,
+				CFEC3539233EAFAA00640C5C /* TableViewCellPersonajes.swift in Sources */,
+				CF9909E223885059008BBDDE /* TableViewCellEventos.swift in Sources */,
+				CF9909E023884EFE008BBDDE /* TableViewControllerEventos.swift in Sources */,
+				CFEC3537233EADD700640C5C /* TableViewControllerPersonajes.swift in Sources */,
+				CF9C25F2233D41BB00B85162 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF9C25F5233D41BB00B85162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9C25F6233D41BB00B85162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF9C25FD233D41BD00B85162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9C25FE233D41BD00B85162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF9C2601233D41BD00B85162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF9C2602233D41BD00B85162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9C2604233D41BD00B85162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TuristenadoCDMX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.subenalaloma.TuristenadoCDMX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF9C2605233D41BD00B85162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TuristenadoCDMX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.subenalaloma.TuristenadoCDMX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF9C25E7233D41BB00B85162 /* Build configuration list for PBXProject "TuristenadoCDMX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9C2601233D41BD00B85162 /* Debug */,
+				CF9C2602233D41BD00B85162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9C2603233D41BD00B85162 /* Build configuration list for PBXNativeTarget "TuristenadoCDMX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9C2604233D41BD00B85162 /* Debug */,
+				CF9C2605233D41BD00B85162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF9C25F8233D41BB00B85162 /* TuristenadoCDMX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF9C25F9233D41BB00B85162 /* TuristenadoCDMX.xcdatamodel */,
+			);
+			currentVersion = CF9C25F9233D41BB00B85162 /* TuristenadoCDMX.xcdatamodel */;
+			path = TuristenadoCDMX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF9C25E4233D41BB00B85162 /* Project object */;
+}

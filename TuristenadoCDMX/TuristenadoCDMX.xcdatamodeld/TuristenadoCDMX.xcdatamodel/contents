@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Eventos" representedClassName="Eventos" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="breve" optional="YES" attributeType="String"/>
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="fecha_fin" optional="YES" attributeType="String"/>
+        <attribute name="fecha_inicio" optional="YES" attributeType="String"/>
+        <attribute name="foto" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="personaje" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Personajes" representedClassName="Personajes" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="breve" optional="YES" attributeType="String"/>
+        <attribute name="detalles" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="profesion" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Eventos" positionX="227.8828125" positionY="-13.83984375" width="128" height="163"/>
+        <element name="Personajes" positionX="-63" positionY="-18" width="128" height="133"/>
+    </elements>
+</model>
